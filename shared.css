@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+*{
+    transition: .5s;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    position: sticky;
+    min-width: 1.5px;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+    background-color: #fcfeff;
+}
+
+.container{
+    width: 1290px;
+ 
+    margin: 0 auto;
+    align-items: center;
+    box-sizing: border-box;
+
+   
+}
+.clearfix{
+    clear: both;
+}
+.section-subtitle{
+    letter-spacing: 0.5rem;
+    font-weight: 700;
+    margin-bottom: 0.625rem;
+    color:#797979;
+    text-transform: uppercase;
+}
+.section-title {
+   
+    margin-top: 0.3125rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #05364d;
+}
+
+.blur-line{
+    display: inline-block;
+    position: relative;
+    top: -3px;
+    margin-left: 0.31rem;
+    padding-top: 0.11rem;
+    width: 5rem;
+    height: 0.25rem;
+    background-color: rgba(237, 35, 159, 0.6);
+    filter: blur(4px);
+    border-radius: 4px;
+}
+/* main header styles */
+header{
+   padding-top: 2rem;
+    width: 100%;
+    outline: none;
+    box-shadow:  1px 1px 10px  rgba(0, 0, 0, 0.1);
+    position: fixed;
+    background-color: #f6fafc;
+    z-index: 999;
+}
+.navigator{
+    display: flex;
+    padding: 20px 0;
+}
+
+.main__brand {
+    margin-left: -7rem;
+    display: inline-block;
+    vertical-align: auto;
+}
+.main-header{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.625rem 0rem;
+    width: 100%;
+
+}
+
+
+
+.main-navigation__items{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    column-gap: 0.625rem;
+    margin-left: 80%;
+}
+
+
+.main-navigation__item a{
+    color: #05364d;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:0.75rem;
+    font-weight: 800;
+    transition: .5s;
+    margin-left: 1.25rem;
+    
+}
+.basket{
+margin-left: 20px;
+}
+.main-navigation__item a:hover,i:hover{
+    color: #2bc238;
+    transition: .5s;
+}
+.main-navigation__item.active a{
+    color:#2bc238;
+
+}
+.fa-youtube{
+    cursor: pointer;
+}
